@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gorko Custom Properties Demo</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/global.css" />
+  </head>
+  <body>
+    <article class="bg-dark color-light">
+      <h1 class="text-700 md:text-900">Gorko Custom Properties Demo</h1>
+      <p>
+        This little demo is using CSS Custom Properties for <code>bg-</code> and
+        <code>weight-</code>. Everything else is standard key value pairs.
+      </p>
+      <p>
+        This element uses the <code>.bg-dark</code> utility to set background colour. All
+        we have to do to change what colour that is, is change the
+        <code>--color-dark</code> Custom Property value. Use the button to change that to
+        pink and the <code>--color-light</code> to teal.
+      </p>
+      <button>Switch colours</button>
+    </article>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
